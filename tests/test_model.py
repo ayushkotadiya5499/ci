@@ -1,18 +1,44 @@
 import pytest
-from sklearn.datasets import load_iris
+import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import r2_score
 
 
-def test_random_forest_accuracy():
-    iris = load_iris()
-    X_train, X_test, y_train, y_test = train_test_split(
-        iris.data, iris.target, test_size=0.2, random_state=42
+def test_salary_pipeline_r2():
+    # load the salary dataset from repository
+    df = pd.read_csv('salary_dataset_practice.csv')
+    X = df.drop('salary', axis=1)
+    y = df['salary']
+
+    num_cols = ['experience', 'age', 'projects_completed', 'hours_per_week']
+    cat_cols = ['job_role', 'education_level', 'location']
+
+    num_pipe = Pipeline([('scaler', StandardScaler())])
+    cat_pipe = Pipeline([('onehot', OneHotEncoder(handle_unknown='ignore'))])
+
+    compose = ColumnTransformer(
+        transformers=[
+            ('num', num_pipe, num_cols),
+            ('cat', cat_pipe, cat_cols)
+        ],
+        remainder='passthrough',
+        verbose_feature_names_out=False
     )
-    clf = RandomForestClassifier(n_estimators=10, random_state=42)
-    clf.fit(X_train, y_train)
-    y_pred = clf.predict(X_test)
-    acc = accuracy_score(y_test, y_pred)
-    # expect reasonable accuracy on iris dataset
-    assert acc >= 0.8, f"Accuracy too low: {acc}"
+
+    pipe = Pipeline(steps=[
+        ('preprocessor', compose),
+        ('model', DecisionTreeRegressor(random_state=42))
+    ])
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42
+    )
+    pipe.fit(X_train, y_train)
+    y_pred = pipe.predict(X_test)
+    score = r2_score(y_test, y_pred)
+    # expect the model to capture some variance in salary data
+    assert score >= 0.5, f"R2 too low: {score}"

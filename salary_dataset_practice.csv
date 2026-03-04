@@ -1,0 +1,501 @@
+experience,age,projects_completed,hours_per_week,job_role,education_level,location,salary
+1,26,40,41,AI Specialist,PhD,Rural,97499
+15,46,37,30,Analyst,Bachelor's,Rural,79624
+13,58,28,29,Data Scientist,PhD,Rural,88980
+8,54,44,32,DL Engineer,Bachelor's,Rural,83495
+8,32,7,43,ML Engineer,Bachelor's,Rural,56721
+17,39,46,29,Analyst,Bachelor's,Suburban,84004
+1,42,42,56,DL Engineer,Master's,Suburban,87634
+13,31,25,39,Analyst,Master's,Suburban,68236
+4,32,36,54,ML Engineer,Master's,Suburban,86432
+1,30,26,47,ML Engineer,Bachelor's,Rural,68481
+10,59,14,33,DL Engineer,Bachelor's,Suburban,70957
+19,50,40,29,Data Scientist,PhD,Suburban,104831
+14,53,13,49,Analyst,PhD,Urban,70608
+15,53,16,33,AI Specialist,PhD,Rural,101836
+14,58,26,29,ML Engineer,Bachelor's,Suburban,73811
+15,26,42,57,Data Scientist,PhD,Suburban,101086
+10,55,19,39,DL Engineer,PhD,Suburban,98914
+2,24,25,21,ML Engineer,Master's,Urban,77336
+16,40,3,39,ML Engineer,Bachelor's,Suburban,73788
+9,44,6,38,DL Engineer,PhD,Rural,76897
+10,35,3,54,Data Scientist,Master's,Suburban,69653
+7,27,4,48,ML Engineer,Bachelor's,Urban,66966
+3,29,43,27,ML Engineer,Bachelor's,Suburban,78087
+18,53,42,26,DL Engineer,Master's,Urban,98745
+15,34,41,44,Analyst,Bachelor's,Suburban,79145
+12,33,3,21,DL Engineer,Bachelor's,Suburban,66628
+8,57,4,32,ML Engineer,Master's,Urban,62190
+16,27,14,25,AI Specialist,PhD,Rural,92417
+10,56,28,20,DL Engineer,Bachelor's,Urban,82573
+8,56,17,56,Data Scientist,Master's,Rural,70858
+9,44,24,23,DL Engineer,PhD,Rural,86652
+4,28,9,20,Analyst,PhD,Urban,55401
+1,27,36,57,Analyst,PhD,Suburban,77956
+11,32,16,27,ML Engineer,Bachelor's,Urban,70456
+17,43,4,52,AI Specialist,PhD,Urban,103786
+1,27,37,21,AI Specialist,PhD,Rural,93232
+17,39,45,26,DL Engineer,Bachelor's,Rural,88140
+16,26,1,24,Analyst,Master's,Urban,64656
+5,42,22,48,AI Specialist,Master's,Urban,81726
+12,22,41,44,DL Engineer,Master's,Urban,93415
+3,48,35,39,Data Scientist,Bachelor's,Suburban,74869
+15,24,42,29,AI Specialist,PhD,Urban,106341
+14,29,21,23,ML Engineer,PhD,Urban,93564
+7,28,19,42,ML Engineer,Master's,Suburban,74027
+1,53,35,29,Data Scientist,PhD,Urban,78205
+19,24,8,43,AI Specialist,Master's,Rural,88318
+8,38,12,47,DL Engineer,PhD,Rural,82571
+17,44,30,53,DL Engineer,Master's,Rural,103095
+13,41,33,39,ML Engineer,Master's,Urban,93443
+15,47,6,20,ML Engineer,Bachelor's,Rural,78549
+15,52,25,31,Analyst,Master's,Rural,85038
+3,36,18,54,Data Scientist,Bachelor's,Urban,62646
+7,53,25,41,Data Scientist,Bachelor's,Rural,73052
+9,34,47,44,AI Specialist,Bachelor's,Suburban,90418
+9,59,4,38,ML Engineer,PhD,Rural,74711
+0,41,49,26,Data Scientist,Bachelor's,Suburban,71549
+10,49,23,55,ML Engineer,PhD,Rural,87214
+3,55,38,50,ML Engineer,PhD,Urban,86740
+14,52,21,59,Data Scientist,Bachelor's,Suburban,80578
+13,54,16,54,DL Engineer,Master's,Urban,80716
+18,42,38,31,AI Specialist,Master's,Urban,107410
+14,23,34,30,DL Engineer,Master's,Urban,87411
+7,40,8,29,Analyst,PhD,Suburban,77847
+19,28,35,56,ML Engineer,Master's,Urban,98443
+8,55,37,42,DL Engineer,Master's,Rural,90260
+6,30,20,38,DL Engineer,Master's,Suburban,72123
+18,30,46,58,ML Engineer,PhD,Rural,121130
+7,31,32,44,AI Specialist,Master's,Rural,97397
+1,46,17,56,Data Scientist,Master's,Urban,72184
+9,43,1,59,DL Engineer,PhD,Urban,76565
+15,58,34,23,Analyst,PhD,Suburban,84653
+3,37,11,34,ML Engineer,PhD,Suburban,69692
+9,32,38,49,DL Engineer,PhD,Urban,107111
+2,23,26,52,Data Scientist,Master's,Rural,79445
+13,22,23,25,ML Engineer,PhD,Suburban,89977
+9,36,9,32,DL Engineer,Bachelor's,Rural,57718
+6,57,35,41,DL Engineer,Bachelor's,Urban,76782
+4,41,9,51,DL Engineer,Master's,Rural,77138
+11,55,21,24,Data Scientist,PhD,Urban,89364
+13,25,41,44,Analyst,Master's,Suburban,87845
+18,25,46,31,AI Specialist,Master's,Suburban,99239
+8,53,49,28,Analyst,Master's,Rural,79607
+3,26,47,40,Data Scientist,Bachelor's,Urban,84577
+16,23,28,36,ML Engineer,Master's,Urban,81908
+12,37,10,45,Analyst,Master's,Suburban,65960
+14,57,42,32,ML Engineer,Master's,Suburban,95769
+1,48,40,52,ML Engineer,Master's,Urban,82896
+6,25,49,23,ML Engineer,Bachelor's,Urban,73839
+15,53,32,54,Data Scientist,PhD,Urban,97171
+16,54,7,21,Analyst,Master's,Suburban,62063
+8,52,25,49,AI Specialist,Bachelor's,Suburban,84559
+16,56,22,33,Data Scientist,Master's,Suburban,80782
+16,31,42,35,AI Specialist,Master's,Rural,101784
+7,59,20,20,Analyst,Bachelor's,Urban,55801
+17,34,17,48,Analyst,Bachelor's,Rural,72312
+5,52,4,26,ML Engineer,Bachelor's,Rural,58677
+4,44,41,46,AI Specialist,Master's,Urban,91651
+13,51,38,49,AI Specialist,PhD,Urban,109261
+12,45,3,53,ML Engineer,PhD,Urban,74495
+2,46,22,48,Data Scientist,Master's,Urban,74985
+16,45,24,32,AI Specialist,PhD,Suburban,101397
+3,51,23,49,ML Engineer,Bachelor's,Urban,72498
+16,50,46,53,Analyst,PhD,Urban,101403
+0,27,8,32,Analyst,Master's,Suburban,40635
+15,53,16,24,AI Specialist,PhD,Rural,84930
+15,42,9,55,Data Scientist,PhD,Urban,88869
+15,34,12,25,ML Engineer,Master's,Rural,78964
+13,41,45,43,Analyst,Bachelor's,Suburban,79950
+9,58,47,29,Data Scientist,Master's,Rural,85989
+14,54,3,25,Data Scientist,PhD,Urban,80821
+5,53,31,51,Data Scientist,PhD,Suburban,92363
+15,39,12,25,ML Engineer,PhD,Rural,88419
+11,51,10,46,AI Specialist,Bachelor's,Urban,78895
+9,36,15,47,AI Specialist,Master's,Rural,75361
+10,48,10,22,ML Engineer,Bachelor's,Suburban,71246
+11,46,25,26,Data Scientist,PhD,Suburban,91808
+0,31,49,51,AI Specialist,PhD,Suburban,104922
+2,32,29,40,DL Engineer,Bachelor's,Suburban,70101
+4,24,36,24,DL Engineer,Master's,Urban,85168
+2,27,25,59,ML Engineer,PhD,Rural,90602
+8,38,1,30,ML Engineer,PhD,Suburban,82294
+13,40,5,20,AI Specialist,Master's,Rural,75119
+13,28,14,56,DL Engineer,Bachelor's,Suburban,80067
+9,37,12,20,ML Engineer,PhD,Suburban,82736
+17,44,42,42,ML Engineer,PhD,Suburban,106687
+11,30,42,59,Data Scientist,Master's,Rural,88213
+1,34,42,43,Data Scientist,PhD,Rural,89673
+15,35,32,43,ML Engineer,Bachelor's,Rural,90493
+11,41,28,35,Analyst,Master's,Suburban,72439
+12,35,32,25,Data Scientist,Bachelor's,Rural,79097
+11,50,20,42,ML Engineer,PhD,Suburban,88106
+11,34,33,55,AI Specialist,PhD,Suburban,112891
+1,38,39,23,DL Engineer,PhD,Rural,82596
+11,36,38,55,Data Scientist,Master's,Urban,88063
+15,28,31,36,DL Engineer,Bachelor's,Rural,87754
+6,48,3,41,ML Engineer,Bachelor's,Urban,68094
+12,30,36,26,DL Engineer,Master's,Suburban,82713
+0,33,18,44,Analyst,PhD,Suburban,58248
+6,52,37,27,DL Engineer,Bachelor's,Suburban,69711
+8,58,27,30,DL Engineer,PhD,Suburban,89663
+19,47,44,48,ML Engineer,Bachelor's,Suburban,93008
+4,56,17,22,AI Specialist,Master's,Suburban,74977
+5,54,46,37,AI Specialist,Bachelor's,Suburban,93706
+8,40,42,43,ML Engineer,Master's,Suburban,87392
+19,51,17,25,Data Scientist,Master's,Rural,83656
+17,34,24,31,DL Engineer,Bachelor's,Suburban,83703
+0,39,27,33,Analyst,Master's,Suburban,63460
+4,42,38,46,AI Specialist,PhD,Rural,101575
+16,58,34,59,AI Specialist,PhD,Rural,108340
+1,54,42,53,AI Specialist,Bachelor's,Urban,86756
+17,40,19,27,Data Scientist,PhD,Rural,94118
+5,46,25,20,Data Scientist,PhD,Urban,80466
+18,29,22,22,AI Specialist,PhD,Urban,93415
+5,52,45,43,DL Engineer,Master's,Rural,94378
+8,43,15,26,ML Engineer,PhD,Urban,75276
+13,42,29,29,DL Engineer,Master's,Rural,95362
+2,51,6,53,DL Engineer,Bachelor's,Rural,70720
+11,46,42,54,ML Engineer,Bachelor's,Rural,92249
+10,24,19,53,AI Specialist,PhD,Rural,97886
+15,32,17,30,Data Scientist,Bachelor's,Rural,73454
+19,28,29,44,AI Specialist,Master's,Urban,105692
+13,49,25,44,Data Scientist,PhD,Rural,89446
+8,23,42,27,DL Engineer,Bachelor's,Urban,85577
+8,29,27,42,AI Specialist,Master's,Urban,94259
+8,44,26,41,AI Specialist,Bachelor's,Urban,81390
+16,48,6,35,AI Specialist,Master's,Suburban,82919
+6,41,2,50,Data Scientist,Bachelor's,Rural,56028
+3,54,20,47,AI Specialist,PhD,Urban,84077
+6,56,49,41,AI Specialist,Bachelor's,Rural,84558
+0,27,45,49,AI Specialist,PhD,Suburban,102949
+2,58,31,50,Analyst,PhD,Suburban,83544
+1,45,31,42,ML Engineer,PhD,Rural,92026
+15,46,20,30,AI Specialist,PhD,Suburban,89869
+14,25,9,50,ML Engineer,Bachelor's,Suburban,80124
+13,45,1,48,Data Scientist,PhD,Rural,87210
+9,49,17,59,ML Engineer,Master's,Suburban,80015
+14,44,16,25,Analyst,PhD,Suburban,74507
+3,25,10,36,DL Engineer,PhD,Urban,67160
+18,41,13,56,ML Engineer,Master's,Urban,90033
+10,57,2,40,DL Engineer,Master's,Urban,68682
+18,49,30,57,ML Engineer,Bachelor's,Urban,93398
+3,27,46,20,Data Scientist,Bachelor's,Urban,67193
+9,58,34,21,ML Engineer,Master's,Rural,85914
+13,58,22,51,ML Engineer,PhD,Urban,99322
+9,28,21,34,ML Engineer,Master's,Suburban,75384
+8,52,16,40,Data Scientist,Master's,Rural,68315
+3,37,7,37,Data Scientist,Bachelor's,Rural,48119
+7,44,30,36,Data Scientist,Master's,Suburban,77867
+4,38,28,57,DL Engineer,Master's,Urban,81492
+6,51,1,23,DL Engineer,PhD,Rural,65344
+13,59,21,50,Data Scientist,PhD,Urban,92765
+12,52,14,55,DL Engineer,Master's,Rural,82750
+12,57,9,46,Data Scientist,PhD,Rural,77321
+7,57,35,35,Data Scientist,Master's,Urban,78727
+19,25,26,26,ML Engineer,PhD,Rural,102556
+1,31,32,47,AI Specialist,Master's,Urban,89414
+6,49,35,38,Data Scientist,Bachelor's,Urban,75449
+2,44,49,25,AI Specialist,Master's,Rural,94595
+6,23,40,34,DL Engineer,Bachelor's,Rural,76995
+19,25,31,58,Analyst,Bachelor's,Urban,81261
+7,41,44,30,Data Scientist,PhD,Rural,92736
+18,45,24,27,Analyst,PhD,Rural,80050
+9,28,49,47,Analyst,Bachelor's,Rural,80077
+13,28,38,27,Data Scientist,PhD,Urban,90497
+9,26,32,56,DL Engineer,Bachelor's,Urban,88749
+5,43,45,54,ML Engineer,Bachelor's,Rural,89059
+15,22,26,59,Analyst,PhD,Rural,72214
+19,43,36,56,AI Specialist,Bachelor's,Rural,109151
+5,40,14,29,Data Scientist,PhD,Suburban,59561
+15,39,48,28,Analyst,PhD,Urban,88519
+5,47,31,33,ML Engineer,Bachelor's,Rural,80226
+14,41,39,38,ML Engineer,Bachelor's,Urban,87513
+15,49,23,55,ML Engineer,PhD,Suburban,90169
+8,51,43,49,Analyst,Master's,Rural,73831
+14,56,4,45,Analyst,Master's,Suburban,70134
+5,52,6,55,Data Scientist,Master's,Urban,59392
+1,41,25,45,DL Engineer,Master's,Urban,83144
+1,40,36,35,AI Specialist,PhD,Suburban,92724
+8,30,40,36,Data Scientist,Master's,Rural,79238
+18,44,22,40,Analyst,Bachelor's,Suburban,69084
+2,27,32,23,AI Specialist,Master's,Rural,77513
+9,57,28,49,Analyst,PhD,Urban,84131
+14,54,48,46,Analyst,Bachelor's,Rural,85862
+4,26,33,49,DL Engineer,Master's,Rural,76704
+14,51,21,41,DL Engineer,PhD,Suburban,92682
+6,26,48,51,ML Engineer,Master's,Rural,88884
+16,49,6,57,AI Specialist,Bachelor's,Suburban,91867
+11,25,49,42,AI Specialist,Bachelor's,Suburban,92149
+10,40,8,37,Data Scientist,Master's,Rural,79421
+3,46,15,24,AI Specialist,Master's,Rural,75133
+9,49,41,51,ML Engineer,PhD,Rural,93890
+17,37,36,56,Analyst,Master's,Urban,82813
+0,57,48,47,AI Specialist,PhD,Rural,96391
+15,51,37,54,Analyst,Bachelor's,Urban,72926
+9,29,32,54,DL Engineer,Master's,Suburban,91274
+14,47,17,51,ML Engineer,Bachelor's,Suburban,74560
+13,49,1,40,Data Scientist,Master's,Suburban,60598
+8,34,7,23,Data Scientist,Bachelor's,Rural,59201
+6,50,15,20,DL Engineer,Master's,Rural,63485
+12,56,3,28,AI Specialist,Master's,Urban,75339
+2,53,25,37,Data Scientist,Bachelor's,Urban,62354
+11,50,39,49,ML Engineer,Bachelor's,Urban,83943
+1,46,48,38,DL Engineer,Master's,Rural,97604
+12,32,24,20,Analyst,PhD,Suburban,75282
+12,52,43,28,ML Engineer,Bachelor's,Rural,88326
+1,35,49,59,AI Specialist,Master's,Rural,88418
+15,42,43,59,DL Engineer,Bachelor's,Rural,95030
+8,33,23,35,Analyst,PhD,Urban,74576
+15,33,16,52,Analyst,Master's,Urban,68277
+0,27,48,48,DL Engineer,PhD,Suburban,100140
+3,58,12,57,DL Engineer,Bachelor's,Suburban,64386
+9,27,21,55,DL Engineer,Bachelor's,Rural,79068
+3,25,4,45,Data Scientist,Master's,Urban,61069
+6,57,39,35,DL Engineer,Master's,Suburban,88321
+13,43,32,45,Data Scientist,PhD,Urban,91797
+2,38,5,32,ML Engineer,PhD,Urban,69545
+13,50,11,33,ML Engineer,PhD,Urban,83919
+2,36,28,44,ML Engineer,Master's,Urban,74128
+3,26,27,42,Analyst,Master's,Suburban,67325
+11,49,40,43,AI Specialist,Master's,Suburban,100791
+15,28,14,35,Analyst,Bachelor's,Suburban,63556
+3,43,46,36,AI Specialist,Master's,Suburban,91047
+5,58,22,20,Analyst,Master's,Rural,63982
+18,57,41,44,DL Engineer,Bachelor's,Rural,96120
+19,35,12,43,Analyst,Bachelor's,Suburban,67066
+11,51,2,57,Analyst,Master's,Suburban,63923
+8,45,3,40,ML Engineer,Master's,Rural,78982
+6,40,19,38,ML Engineer,PhD,Rural,76398
+12,27,47,22,Analyst,Master's,Urban,83749
+11,36,3,27,AI Specialist,PhD,Rural,75434
+5,46,19,33,Data Scientist,Master's,Urban,72186
+0,59,6,35,Data Scientist,Bachelor's,Suburban,62875
+3,22,46,34,Data Scientist,Bachelor's,Suburban,80243
+19,49,34,35,DL Engineer,PhD,Suburban,105853
+8,54,38,50,Analyst,Master's,Urban,74197
+9,58,35,25,DL Engineer,Bachelor's,Rural,81655
+9,38,33,33,Data Scientist,Master's,Urban,80839
+15,26,38,26,Analyst,PhD,Urban,82270
+1,32,1,32,Data Scientist,Master's,Rural,56450
+1,54,43,47,ML Engineer,Bachelor's,Rural,80891
+5,55,37,21,ML Engineer,Bachelor's,Urban,71863
+9,46,37,33,Data Scientist,PhD,Rural,87068
+13,26,20,20,Data Scientist,PhD,Rural,77198
+9,26,40,58,ML Engineer,PhD,Urban,102553
+8,40,19,49,ML Engineer,PhD,Suburban,90026
+18,44,3,29,AI Specialist,Bachelor's,Suburban,81458
+3,23,45,27,AI Specialist,Bachelor's,Urban,90725
+11,48,12,23,AI Specialist,Bachelor's,Urban,77039
+10,42,5,38,AI Specialist,Bachelor's,Urban,77060
+9,22,31,50,DL Engineer,PhD,Urban,98019
+16,25,12,43,Data Scientist,PhD,Suburban,87142
+5,39,43,55,Data Scientist,Bachelor's,Suburban,79845
+19,49,22,33,Data Scientist,PhD,Urban,104670
+6,53,1,31,ML Engineer,Master's,Urban,63440
+10,38,47,39,ML Engineer,Bachelor's,Urban,85970
+10,33,26,28,AI Specialist,PhD,Rural,97770
+16,58,13,59,Analyst,PhD,Urban,82559
+8,39,34,27,DL Engineer,Master's,Rural,78376
+5,33,26,39,Data Scientist,PhD,Suburban,88413
+0,38,2,40,AI Specialist,Master's,Rural,68529
+7,22,38,22,Data Scientist,PhD,Suburban,81845
+16,33,20,38,Analyst,Master's,Urban,79543
+0,41,35,38,DL Engineer,PhD,Suburban,90228
+17,56,44,30,AI Specialist,Bachelor's,Urban,93677
+10,50,30,25,AI Specialist,Bachelor's,Urban,93885
+2,51,33,21,Analyst,PhD,Urban,72993
+6,42,13,20,Data Scientist,Bachelor's,Urban,61449
+11,26,12,39,Analyst,Bachelor's,Urban,67751
+6,36,21,23,Data Scientist,PhD,Urban,78896
+2,59,42,58,DL Engineer,Bachelor's,Rural,84459
+13,23,26,29,Data Scientist,Master's,Suburban,78498
+13,55,18,46,Analyst,Bachelor's,Suburban,69109
+2,48,39,46,DL Engineer,Bachelor's,Rural,83083
+5,32,42,39,Analyst,PhD,Urban,80873
+4,51,45,55,Data Scientist,Bachelor's,Suburban,78550
+13,53,15,24,Analyst,Bachelor's,Rural,60949
+14,23,35,29,Analyst,PhD,Suburban,83951
+14,26,29,30,DL Engineer,PhD,Suburban,89832
+18,47,22,25,AI Specialist,Bachelor's,Urban,81640
+15,59,20,31,ML Engineer,PhD,Urban,94025
+6,22,6,32,Analyst,Master's,Urban,42390
+2,47,14,50,Analyst,PhD,Urban,67027
+12,27,27,32,Data Scientist,Bachelor's,Rural,74509
+18,46,44,55,ML Engineer,PhD,Suburban,117541
+19,45,43,50,ML Engineer,Master's,Suburban,101032
+4,25,10,56,AI Specialist,PhD,Rural,90497
+4,47,34,24,Data Scientist,Master's,Urban,73815
+0,56,5,59,Analyst,PhD,Urban,61868
+2,54,34,44,Analyst,Master's,Suburban,71484
+11,23,17,59,Analyst,Bachelor's,Rural,63987
+10,31,23,34,Analyst,PhD,Suburban,80282
+7,31,36,58,AI Specialist,PhD,Rural,98631
+6,39,21,43,Data Scientist,Bachelor's,Urban,71572
+16,27,40,22,AI Specialist,Master's,Rural,105013
+9,54,27,36,DL Engineer,Master's,Urban,88000
+16,51,49,25,DL Engineer,Master's,Urban,110082
+19,52,32,57,DL Engineer,PhD,Suburban,104582
+6,29,15,32,AI Specialist,PhD,Urban,80004
+4,22,38,28,Analyst,Bachelor's,Rural,58628
+19,56,20,42,Analyst,PhD,Rural,87702
+12,32,27,37,DL Engineer,Master's,Suburban,90389
+5,46,7,23,Data Scientist,PhD,Urban,70611
+12,56,6,52,DL Engineer,PhD,Urban,81785
+10,23,29,53,ML Engineer,Master's,Suburban,91934
+18,22,10,49,DL Engineer,Master's,Suburban,81676
+5,22,49,44,Data Scientist,Master's,Rural,94094
+19,27,42,36,Data Scientist,PhD,Suburban,118487
+18,23,35,41,ML Engineer,Master's,Urban,98532
+3,53,37,40,Data Scientist,Bachelor's,Urban,77415
+3,45,30,26,DL Engineer,Master's,Rural,75735
+10,59,3,23,DL Engineer,Bachelor's,Urban,57048
+0,52,20,30,ML Engineer,Master's,Rural,65986
+5,58,25,38,ML Engineer,Bachelor's,Urban,67635
+8,31,45,26,DL Engineer,Bachelor's,Rural,78464
+19,32,11,24,Data Scientist,PhD,Rural,94911
+19,54,25,54,Data Scientist,Bachelor's,Suburban,88664
+3,31,17,34,DL Engineer,Master's,Urban,75198
+17,24,7,43,Data Scientist,PhD,Rural,84554
+1,47,6,40,ML Engineer,PhD,Urban,71135
+14,52,18,49,Data Scientist,Master's,Suburban,87622
+16,58,5,49,ML Engineer,Bachelor's,Rural,76138
+17,57,4,31,ML Engineer,PhD,Rural,87853
+4,26,18,53,AI Specialist,PhD,Urban,89619
+17,51,10,34,Analyst,Master's,Rural,67089
+2,54,28,53,ML Engineer,Bachelor's,Urban,67565
+10,48,1,36,Analyst,Bachelor's,Rural,42811
+9,53,15,24,Data Scientist,Bachelor's,Suburban,64992
+6,53,23,50,Analyst,Bachelor's,Urban,62782
+0,38,48,21,Analyst,PhD,Suburban,68769
+15,23,32,50,Analyst,Bachelor's,Urban,75827
+6,39,44,21,Analyst,Bachelor's,Rural,67468
+13,29,17,28,AI Specialist,PhD,Urban,83319
+8,26,23,44,Analyst,PhD,Urban,70724
+7,26,21,57,Data Scientist,Bachelor's,Suburban,75936
+17,48,44,36,ML Engineer,Master's,Rural,101135
+1,41,48,24,AI Specialist,Master's,Suburban,84031
+14,42,48,29,AI Specialist,Master's,Suburban,104592
+14,50,37,55,Analyst,PhD,Suburban,95612
+7,42,25,49,AI Specialist,PhD,Rural,100185
+5,45,27,24,ML Engineer,PhD,Suburban,82823
+0,25,49,35,Analyst,Bachelor's,Rural,64160
+18,54,14,30,DL Engineer,Bachelor's,Rural,77853
+18,39,17,27,AI Specialist,Master's,Rural,94239
+4,27,44,53,Data Scientist,Bachelor's,Rural,82575
+0,52,19,44,Analyst,Master's,Rural,61447
+2,49,12,27,AI Specialist,Bachelor's,Urban,69059
+1,24,28,46,AI Specialist,PhD,Rural,95293
+16,29,16,36,AI Specialist,Bachelor's,Rural,86672
+17,22,44,22,AI Specialist,Bachelor's,Urban,102323
+3,32,45,37,AI Specialist,Bachelor's,Rural,92254
+14,25,15,27,DL Engineer,Bachelor's,Urban,72877
+3,48,26,29,Analyst,Master's,Suburban,52759
+7,41,49,55,ML Engineer,Master's,Rural,103217
+11,59,37,48,Data Scientist,PhD,Urban,97383
+14,50,11,25,DL Engineer,Bachelor's,Suburban,65927
+17,45,29,54,ML Engineer,Master's,Rural,91730
+0,41,31,42,AI Specialist,Master's,Suburban,87759
+3,24,33,54,Data Scientist,Master's,Rural,78901
+5,24,2,49,Data Scientist,PhD,Urban,70239
+6,45,15,33,ML Engineer,Bachelor's,Rural,75104
+19,22,42,41,Analyst,Master's,Rural,82963
+15,23,12,41,DL Engineer,PhD,Rural,87209
+6,30,15,48,ML Engineer,PhD,Urban,84156
+19,55,16,29,DL Engineer,Master's,Rural,89752
+9,39,9,33,Data Scientist,Master's,Suburban,72581
+10,48,8,29,AI Specialist,PhD,Suburban,91356
+8,37,18,31,Data Scientist,Master's,Suburban,74192
+2,28,43,26,ML Engineer,PhD,Suburban,91146
+18,36,1,21,DL Engineer,Bachelor's,Suburban,71403
+0,25,14,57,Analyst,Master's,Suburban,58713
+3,51,3,22,DL Engineer,Bachelor's,Urban,59437
+4,28,28,55,Analyst,Bachelor's,Rural,65075
+5,36,13,20,AI Specialist,Master's,Urban,79362
+2,59,39,51,ML Engineer,Bachelor's,Urban,82475
+0,44,29,33,Data Scientist,Master's,Suburban,71321
+13,39,39,40,DL Engineer,Master's,Suburban,91454
+19,42,32,31,ML Engineer,Master's,Suburban,94538
+2,51,22,39,Data Scientist,PhD,Rural,77659
+5,31,43,38,Data Scientist,PhD,Urban,92065
+10,46,24,41,DL Engineer,Master's,Urban,96232
+18,55,47,35,Data Scientist,Bachelor's,Suburban,90881
+13,43,49,41,ML Engineer,PhD,Rural,107811
+15,38,29,53,Analyst,Bachelor's,Suburban,80442
+11,27,34,37,AI Specialist,Master's,Suburban,95890
+8,31,13,34,Data Scientist,Master's,Suburban,82989
+3,57,40,25,DL Engineer,Bachelor's,Rural,76109
+17,42,33,34,Analyst,Master's,Suburban,81920
+16,33,45,25,Data Scientist,Bachelor's,Rural,84505
+0,37,14,27,ML Engineer,Bachelor's,Rural,58642
+14,43,39,58,Data Scientist,Master's,Urban,96344
+1,42,24,23,Analyst,Bachelor's,Urban,56831
+14,48,10,39,DL Engineer,PhD,Rural,90395
+16,31,9,53,Analyst,Bachelor's,Urban,72395
+2,46,28,58,Data Scientist,Master's,Suburban,77125
+8,38,16,25,DL Engineer,PhD,Urban,81339
+2,57,5,26,DL Engineer,Bachelor's,Suburban,73219
+11,28,21,34,ML Engineer,PhD,Urban,90271
+18,27,32,42,ML Engineer,PhD,Suburban,98802
+1,39,16,58,AI Specialist,PhD,Rural,84128
+7,41,47,28,Analyst,Bachelor's,Rural,66386
+19,48,39,26,Data Scientist,PhD,Rural,105382
+6,37,26,30,Analyst,PhD,Urban,70178
+2,56,46,54,Analyst,PhD,Suburban,83436
+9,40,22,21,Data Scientist,Bachelor's,Urban,68882
+10,26,7,35,DL Engineer,PhD,Rural,86157
+13,26,2,24,AI Specialist,Bachelor's,Rural,69566
+6,58,46,26,ML Engineer,Master's,Urban,81822
+19,27,48,56,ML Engineer,Master's,Suburban,108321
+10,58,37,20,ML Engineer,Master's,Suburban,88504
+5,32,6,32,Analyst,Master's,Suburban,56062
+19,25,15,56,AI Specialist,Bachelor's,Suburban,88652
+18,33,3,44,AI Specialist,Master's,Urban,91687
+9,45,3,22,Analyst,PhD,Suburban,58180
+0,38,13,38,DL Engineer,Master's,Suburban,66492
+11,51,29,58,AI Specialist,Bachelor's,Rural,87380
+11,45,4,36,DL Engineer,PhD,Rural,88705
+2,37,49,41,AI Specialist,Bachelor's,Rural,92867
+12,46,23,41,AI Specialist,Master's,Urban,94724
+16,58,13,46,DL Engineer,Master's,Rural,92936
+2,37,26,27,Analyst,Master's,Suburban,74463
+14,27,39,53,Data Scientist,PhD,Suburban,92553
+2,37,16,59,Data Scientist,Master's,Rural,68108
+14,53,3,25,DL Engineer,PhD,Rural,79419
+8,30,3,52,DL Engineer,Bachelor's,Urban,65645
+0,58,42,52,DL Engineer,PhD,Suburban,88012
+19,44,6,49,Analyst,Master's,Rural,70301
+3,44,32,34,Data Scientist,Bachelor's,Suburban,64716
+11,34,19,38,ML Engineer,Bachelor's,Urban,77775
+3,56,39,53,Analyst,PhD,Suburban,80358
+18,23,3,26,Data Scientist,Master's,Rural,77105
+14,33,44,53,AI Specialist,Master's,Urban,109138
+16,37,35,56,Analyst,Bachelor's,Rural,82715
+8,40,23,47,DL Engineer,Master's,Rural,82032
+9,40,11,33,Data Scientist,PhD,Rural,88705
+12,27,48,42,Analyst,Bachelor's,Urban,80572
+15,30,15,22,DL Engineer,Master's,Urban,72587
+16,25,25,57,DL Engineer,Master's,Suburban,89888
+0,43,20,33,Analyst,PhD,Suburban,54897
+13,35,12,22,Analyst,Bachelor's,Suburban,58486
+2,43,21,51,Analyst,Master's,Rural,62090
+5,44,8,46,ML Engineer,PhD,Rural,75857
+16,48,1,44,AI Specialist,Bachelor's,Urban,90354
+5,42,15,22,Analyst,PhD,Rural,66644
+15,46,6,50,Data Scientist,PhD,Urban,88630
+9,44,21,45,Data Scientist,PhD,Suburban,80844
+4,46,43,51,Data Scientist,Master's,Urban,80704
+6,45,8,53,Data Scientist,PhD,Suburban,77784
+10,34,1,28,Analyst,PhD,Rural,63965
+15,31,6,28,DL Engineer,PhD,Suburban,76318
+12,51,25,56,Data Scientist,Master's,Rural,84798
+18,35,14,41,Data Scientist,Master's,Urban,83270
+17,42,24,37,Data Scientist,Master's,Suburban,85324
+15,29,2,31,AI Specialist,Bachelor's,Suburban,73133
+12,38,17,45,ML Engineer,PhD,Rural,86802
+5,42,21,50,DL Engineer,PhD,Rural,86615
+8,45,22,20,Data Scientist,Master's,Suburban,73454
+2,42,28,42,AI Specialist,Bachelor's,Urban,82423
+7,35,39,59,AI Specialist,Master's,Suburban,103704
+18,58,23,31,Analyst,Master's,Urban,74228
+8,41,42,31,AI Specialist,Master's,Suburban,92919
