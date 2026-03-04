@@ -1,0 +1,26 @@
+stages:
+  data_loading:
+    cmd: python .\data_loading.py
+    deps:
+    - .\data_loading.py
+    outs:
+    - data
+  data_preprocessing:
+    cmd: python .\data_preprocessing.py
+    deps:
+    - .\data_preprocessing.py
+    - data
+    outs:
+    - preprocessed_data
+  model_building:
+    cmd: python .\model_building.py
+    deps:
+    - .\model_building.py
+    - preprocessed_data
+    outs:
+    - models
+  model_evulation:
+    cmd: python .\model_evulation.py
+    deps:
+    - .\model_evulation.py
+    - models
