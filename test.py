@@ -30,7 +30,7 @@ compose=ColumnTransformer(transformers=[
 
 pipe=Pipeline(steps=[
     ('preprocessor',compose),
-    ('model',DecisionTreeRegressor(random_state=12,max_depth=5,min_samples_leaf=5,min_samples_split=10))
+    ('model',DecisionTreeRegressor(random_state=12,max_depth=15,min_samples_leaf=5,min_samples_split=10))
 ])
 
 # Split the dataset into training and testing sets
