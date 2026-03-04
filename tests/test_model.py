@@ -31,11 +31,11 @@ def test_salary_pipeline_r2():
 
     pipe = Pipeline(steps=[
         ('preprocessor', compose),
-        ('model', DecisionTreeRegressor(random_state=42))
+        ('model', DecisionTreeRegressor(random_state=12,max_depth=5,min_samples_leaf=5,min_samples_split=10))
     ])
 
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42
+        X, y, test_size=0.25, random_state=42
     )
     pipe.fit(X_train, y_train)
     y_pred = pipe.predict(X_test)
