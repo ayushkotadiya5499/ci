@@ -1,0 +1,9 @@
+data_loading:
+  test_size: 0.3
+  random_state: 15
+
+model_building:
+  n_estimators: 120
+  min_samples_leaf: 4
+  max_depth: 11
+  min_samples_split: 2

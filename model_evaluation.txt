@@ -1,0 +1,57 @@
+
+===============================
+Model Evaluation Results:
+Mean Squared Error: 1964.637889437376
+R2 Score: 0.9284377723458808
+Root Mean Squared Error: 44.32423591487366
+Mean Absolute Error: 35.78416995643863
+random state - 42 
+n_estimators - 100 
+min_samples_leaf - 1 
+max_depth - 15 
+min_samples_split - 2 
+test_size - 0.2 
+-----------------------------
+===============================
+===============================
+Model Evaluation Results:
+Mean Squared Error: 3497.628455960966
+R2 Score: 0.8721336966047953
+Root Mean Squared Error: 59.14075122925787
+Mean Absolute Error: 45.1841056218677
+random state - 42 
+n_estimators - 150 
+min_samples_leaf - 3 
+max_depth - 12 
+min_samples_split - 3 
+test_size - 0.25 
+-----------------------------
+===============================
+===============================
+Model Evaluation Results:
+Mean Squared Error: 3316.779731928241
+R2 Score: 0.8778985465750917
+Root Mean Squared Error: 57.591490099911816
+Mean Absolute Error: 47.42179438625945
+random state - 15 
+n_estimators - 111 
+min_samples_leaf - 3 
+max_depth - 11 
+min_samples_split - 3 
+test_size - 0.2 
+-----------------------------
+===============================
+===============================
+Model Evaluation Results:
+Mean Squared Error: 4349.444184575035
+R2 Score: 0.8389164591979422
+Root Mean Squared Error: 65.95031603089583
+Mean Absolute Error: 52.94611214463225
+random state - 15 
+n_estimators - 120 
+min_samples_leaf - 4 
+max_depth - 11 
+min_samples_split - 2 
+test_size - 0.3 
+-----------------------------
+===============================

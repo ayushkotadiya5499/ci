@@ -1,0 +1,97 @@
+schema: '2.0'
+stages:
+  data_loading:
+    cmd: python ./data_loading.py
+    deps:
+    - path: ./data_loading.py
+      hash: md5
+      md5: d9e2e9c8eb2d1399b375e72200d3e683
+      size: 812
+    params:
+      params.yml:
+        data_loading.random_state: 15
+        data_loading.test_size: 0.3
+    outs:
+    - path: data
+      hash: md5
+      md5: 426f3d10ed5fd76c59d1cc56ccbcd4c5.dir
+      size: 40889
+      nfiles: 2
+  data_preprocessing:
+    cmd: python ./data_preprocessing.py
+    deps:
+    - path: ./data_preprocessing.py
+      hash: md5
+      md5: 0ba6669a99f3fa64ae5153a74da49673
+      size: 1342
+    - path: data
+      hash: md5
+      md5: 426f3d10ed5fd76c59d1cc56ccbcd4c5.dir
+      size: 40889
+      nfiles: 2
+    outs:
+    - path: processed_data
+      hash: md5
+      md5: 104af1603e743f776161db8f496c6bf3.dir
+      size: 28966
+      nfiles: 1
+  mddel_building:
+    cmd: python ./model_building.py
+    deps:
+    - path: ./model_building.py
+      hash: md5
+      md5: 88f554808093d9830080bc6178317bbb
+      size: 1032
+    - path: processed_data
+      hash: md5
+      md5: 0280135ce4df203cc6cbb6d177622292.dir
+      size: 31047
+      nfiles: 1
+    outs:
+    - path: models
+      hash: md5
+      md5: 56aa71da527eec08f06cf88895565531.dir
+      size: 318769
+      nfiles: 1
+  model_evulation:
+    cmd: python ./model_evulation.py
+    deps:
+    - path: ./model_evulation.py
+      hash: md5
+      md5: 71ac847e1519ff0c5ae9526b5c209b74
+      size: 2013
+    - path: models
+      hash: md5
+      md5: 7f8713bec90f22865f54f73576a70f81.dir
+      size: 182689
+      nfiles: 1
+    params:
+      params.yml:
+        model_building.max_depth: 11
+        model_building.min_samples_leaf: 4
+        model_building.min_samples_split: 2
+        model_building.n_estimators: 120
+  model_building:
+    cmd: python ./model_building.py
+    deps:
+    - path: ./model_building.py
+      hash: md5
+      md5: 88f554808093d9830080bc6178317bbb
+      size: 1032
+    - path: processed_data
+      hash: md5
+      md5: 104af1603e743f776161db8f496c6bf3.dir
+      size: 28966
+      nfiles: 1
+    params:
+      params.yml:
+        model_building.max_depth: 11
+        model_building.min_samples_leaf: 4
+        model_building.min_samples_split: 2
+        model_building.n_estimators: 120
+    outs:
+    - path: models
+      hash: md5
+      md5: 7f8713bec90f22865f54f73576a70f81.dir
+      size: 182689
+      nfiles: 1

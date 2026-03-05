@@ -1,0 +1,46 @@
+stages:
+  data_loading:
+    cmd: python ./data_loading.py
+    deps:
+    - ./data_loading.py
+    params:
+    - params.yml:
+      - data_loading.test_size
+      - data_loading.random_state
+    outs:
+    - data
+
+
+  data_preprocessing:
+    cmd: python ./data_preprocessing.py
+    deps:
+    - ./data_preprocessing.py
+    - data
+    outs:
+    - processed_data
+
+  model_building:
+    cmd: python ./model_building.py
+    deps:
+    - ./model_building.py
+    - processed_data
+    params:
+    - params.yml:
+      - model_building.n_estimators
+      - model_building.min_samples_leaf
+      - model_building.max_depth
+      - model_building.min_samples_split
+    outs:
+    - models
+
+  model_evulation:
+    cmd: python ./model_evulation.py
+    deps:
+    - ./model_evulation.py
+    - models
+    params:
+    - params.yml:
+      - model_building.n_estimators
+      - model_building.min_samples_leaf
+      - model_building.max_depth
+      - model_building.min_samples_split
