@@ -4,6 +4,7 @@ import joblib
 model=joblib.load(open('models/model.pkl','rb'))
 
 st.header('Salary Prediction App')
+st.balloons()
 
 experience=st.number_input('Experience',min_value=0.0,max_value=50.0,step=0.1)
 age=st.number_input('Age',min_value=18.0,max_value=70.0,step=0.1)
@@ -46,3 +47,4 @@ if st.button('Predict'):
         prediction = model.predict(X_transformed)
         st.success(f'Predicted Salary: ${prediction[0]:.2f}')
 
+st.snow()
