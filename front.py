@@ -1,4 +1,4 @@
-﻿import streamlit as st
+import streamlit as st
 import joblib
 import pandas as pd
 
@@ -172,4 +172,23 @@ with st.expander('📌 Tips for better predictions'):
         '- Be as realistic as possible with experience and hours per week.\n'
         '- This model is trained on sample data; predictions are not financial advice.\n'
         '- If you update the preprocessing pipeline, re-run `data_preprocessing.py` to refresh the model input pipeline.'
+    )
+    st.markdown('**What is a feature?**')
+    st.write(
+        'A *feature* is a single input variable used by the model to make a prediction. ' 
+        'Providing accurate feature values helps the model produce better estimates.'
+    )
+    st.markdown('**Features used by this model**')
+    st.write(
+    """- **Experience (years):** Total years of professional experience; use decimal values for partial years.
+        - **Age:** Your current age in years.
+        - **Projects completed:** Count of professional projects you have delivered.
+        - **Hours per week:** Typical average working hours per week.
+        - **Job role:** Select the role that best matches your position (e.g., Data Scientist, ML Engineer).
+        - **Education level:** Highest completed degree (Bachelor\'s, Master\'s, PhD).
+        - **Location:** Broad location type (Rural, Suburban, Urban).
+   """ )
+    st.write(
+        'Feature information tips: supply realistic numeric values, choose the categorical options that most closely match you, ' 
+        'and re-run preprocessing if you changed how features are encoded.'
     )
