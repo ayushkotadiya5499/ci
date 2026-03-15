@@ -2,6 +2,9 @@ import streamlit as st
 import joblib
 import pandas as pd
 
+st.balloons()  # Fun visual effect to celebrate loading the app!
+st.snow()  # Adds a playful snow effect to the app background.
+
 # --- Page configuration ---
 st.set_page_config(
     page_title='Salary Predictor',
@@ -192,3 +195,5 @@ with st.expander('📌 Tips for better predictions'):
         'Feature information tips: supply realistic numeric values, choose the categorical options that most closely match you, ' 
         'and re-run preprocessing if you changed how features are encoded.'
     )
+
+st.balloons()

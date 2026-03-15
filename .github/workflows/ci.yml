@@ -32,6 +32,7 @@ jobs:
           pip install pytest
           pytest -q
 
+      # ૧. ECR માં લોગિન કરો
       - name: Login to AWS ECR
         if: success()
         run: |
@@ -39,36 +40,44 @@ jobs:
           aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 982534348859.dkr.ecr.us-east-1.amazonaws.com
 
+      # ૨. ડોકર ઇમેજ બિલ્ડ કરો
       - name: Build Docker image
         if: success()
         run: |
           docker build -t salary_ecr .
 
+      # ૩. ઇમેજને ટેગ કરો
       - name: Tag Docker image
         if: success()
         run: |
           docker tag salary_ecr:latest 982534348859.dkr.ecr.us-east-1.amazonaws.com/salary_ecr:latest
 
+      # ૪. ઇમેજને ECR માં પુશ (Push) કરો
       - name: Push Docker image to AWS ECR
         if: success()
         run: |
           docker push 982534348859.dkr.ecr.us-east-1.amazonaws.com/salary_ecr:latest
 
-      - name: Deploy to EC2
+      # ૫. ડિપ્લોયમેન્ટ માટે ફાઈલોને ઝિપ (Zip) કરો
+      - name: Zip files for deployment
         if: success()
-        uses: appleboy/ssh-action@v0.1.5
-        with:
-          host: ${{ secrets.EC2_HOST }}
-          username: ${{ secrets.EC2_USER }}
-          key: ${{ secrets.EC2_SSH_KEY }}
-          script: |
-            # login to ECR from remote host
-            aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
-            aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-            aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 982534348859.dkr.ecr.us-east-1.amazonaws.com
-            
-            # pull latest image and run container
-            docker pull 982534348859.dkr.ecr.us-east-1.amazonaws.com/salary_ecr:latest
-            docker stop salary_ecr || true
-            docker rm salary_ecr || true
-            sudo docker run -d -p 80:8501 --name salary_ecr 982534348859.dkr.ecr.us-east-1.amazonaws.com/salary_ecr:latest
+        run: |
+          zip -r deployment.zip appspec.yml deploy/scripts/install_dependencies.sh deploy/scripts/start_docker.sh
+
+      # ૬. ઝિપ ફાઈલને તમારા S3 બકેટમાં અપલોડ કરો
+      - name: Upload ZIP to S3
+        if: success()
+        run: |
+          aws s3 cp deployment.zip s3://ayush-code-deploy-15/deployment.zip
+
+      # ૭. AWS CodeDeploy દ્વારા ડિપ્લોયમેન્ટ શરૂ કરો
+      - name: Deploy to AWS CodeDeploy
+        if: success()
+        run: |
+          aws deploy create-deployment \
+            --application-name ayush-deploy-15 \
+            --deployment-config-name CodeDeployDefault.OneAtATime \
+            --deployment-group-name ayush-blue-green-15 \
+            --s3-location bucket=ayush-code-deploy-15,key=deployment.zip,bundleType=zip \
+            --file-exists-behavior OVERWRITE \
+            --region us-east-1
