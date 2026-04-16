@@ -3,6 +3,6 @@ data_loading:
   random_state: 15
 
 model_building:
-  n_estimators: 200
+  n_estimators: 150
   max_depth: 15
   min_samples_split: 20
